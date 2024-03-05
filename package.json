@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://github.com/EzequielPedreiraa/MLSA",
+  "homepage": "https://ezequielpedreiraa.github.io/MLSA/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://github.com/EzequielPedreiraa/MLSA'",
-    "predeploy": "npm run build-gh",
-    "deploy": "gh-pages -d dist"
+    "build-gh": "parcel build --public-url 'https://ezequielpedreiraa.github.io/MLSA/'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
