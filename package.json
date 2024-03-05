@@ -5,11 +5,10 @@
   "source": "src/index.html",
   "homepage": "https://ezequielpedreiraa.github.io/MLSA/",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://ezequielpedreiraa.github.io/MLSA/'",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build-gh",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
